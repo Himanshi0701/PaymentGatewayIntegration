@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!--Header-->
+  <header class="text-gray-600 body-font" id="home">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center md:text-gray-900 mb-4 md:mb-0" href="http://www.udgam.org/#">
+        <img src="images/logo.png" />
+        <span class="ml-3 text-2xl font-bold font-serif text-red-600">UdgamCharitableTrust</span>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5 hover:text-red-900 font-bold text-xl font-serif" href="#home">Home</a>
+        <a class="mr-5 hover:text-red-900 font-bold text-xl font-serif" href="#about">About</a>
+        <a class="mr-5 hover:text-red-900 font-bold text-xl font-serif" href="#v&m">Vision & Mission</a>
+        <a class="mr-5 hover:text-red-900 font-bold text-xl font-serif" href="#gallery">Gallery</a>
+        <a class="mr-5 hover:text-red-900 font-bold text-xl font-serif" href="#contact">Contact</a>
+      </nav>
+      <button
+        class="inline-flex items-center border-2 border-Red-500 py-1 px-3 focus:outline-none  bg-gradient-to-b from-red-600 hover:from-green-500 hover:to-blue-400 text-black shadow-lg rounded text-base mt-4 md:mt-0 font-bold text-xl font-serif"><a
+          href="#donate">Donate</a>
+    </div>
+  </header>
+  <!--End of Header-->
+  <br>
+  <br>
+
+  <!--Slider-->
+  <div class="splide">
+    <div class="splide__track bg-red-200">
+      <ul class="splide__list">
+        <li class="splide__slide border-double border-8 border-red-500 border-opacity-100">
+          <div class="grid md:grid-cols-2 grid-cols-1 bg-white place-items-center bg-red-200">
+            <div id="websiteDescription"
+              class=" flex flex-col justify-center align-middle p-3 md:ml-20 ml-1 border-solid border-pink-500 border-2 border-opacity-100">
+              <br>
+              <h1 class="text-2xl text-black-500 font-serif"><b>"Its not how much we GIVE but how much love we put into
+                  GIVING"</b></h1>
+              <p class="mt-4 text-sm">
+              <h2>- MOTHER TERESSA</h2>
+              <br>
+              <h1 class="text-2xl text-black-500 font-serif"><b>"No one has ever become poor from GIVING"</b></h1>
+              <p class="mt-4 text-sm"></p>
+              <h2>- ANNE FRANK</h2>
+              </p>
+            </div>
+            <div id="websiteImage" class="p-3">
+              <img src="images/slider1.jpg" class="w-3/4 border-2 rounded-xl" />
+            </div>
+          </div>
+        </li>
+        <li class="splide__slide border-double border-8 border-red-500 border-opacity-100">
+          <div class="grid md:grid-cols-2 grid-cols-1 bg-white place-items-center bg-red-200">
+            <div id="websiteDescription"
+              class="flex flex-col justify-center align-middle p-3 md:ml-20 ml-1 border-solid border-pink-500 border-2 border-opacity-100">
+              <br>
+              <h1 class="text-2xl text-black-500 font-serif"><b>"Charity begins at home but it should not end there"</b>
+              </h1>
+              <p class="mt-4 text-sm">
+              <h2>- THOMAS FULLER</h2>
+              <br>
+              <h1 class="text-2xl text-black-500 font-serif"><b>"GIVING is not just about making a donation its about
+                  making a
+                  difference"</b></h1>
+              <p class="mt-4 text-sm"></p>
+              <h2>- KATHY CALVIN</h2>
+              </p>
+            </div>
+
+            <div id="websiteImage" class="p-3">
+              <img src="images/slider2.jpg" class="w-3/4 border-2 rounded-xl" />
+            </div>
+          </div>
+        </li>
+
+        <li class="splide__slide border-double border-8 border-red-500 border-opacity-100">
+          <div class="grid md:grid-cols-2 grid-cols-1 bg-white place-items-center bg-red-200">
+            <div id="websiteDescription"
+              class="flex flex-col justify-center align-middle p-3 md:ml-20 ml-1 border-solid border-pink-500 border-2 border-opacity-100">
+              <br>
+              <h1 class="text-2xl text-black-500 font-serif"><b>"One who gives in CHARITY always gets happiness and
+                  sense of
+                  self-satisfaction"</b></h1>
+              <h2>- SAM VEDA</h2>
+              <br>
+              <h1 class="text-2xl text-black-500 font-serif"><b>"In this world of give and take one must learn what it
+                  takes
+                  to give"</b></h1>
+              <p class="mt-4 text-sm"></p>
+              <h2>- DR. HAZEM BARMADA</h2>
+            </div>
+
+            <div id="websiteImage" class="p-3">
+              <img src="images/slider3.png" class="w-3/4 border-2 rounded-xl" />
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--End Slider-->
+
+  <!--About Us-->
+  <br>
+  <section class="text-gray-600 body-font  " id="about">
+    <div class="container px-5 py-24 mx-auto ">
+      <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mb-8"
+          viewBox="0 0 975.036 975.036">
+          <path
+            d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+          </path>
+        </svg>
+        <p class="leading-relaxed text-lg font-bold text-black ">The first steps in the direction of working in a
+          strategic fashion for disadvantaged communities were taken by the UDGAM team in 1997. Work was initiated by
+          establishing a youth body which would cater to marginalised groups. Dr. Ganpatrai Joshi, renowned Gandhian and
+          freedom fighter was the founding father of the youth group.
+          Work at UDGAM gained momentum during the 2001 earthquake in Gujarat where the organisation facilitated rescue
+          operations, donations, relief and rehabilitation work in Kutch district with the support of Dr. Sahib Singh
+          Verma, Ex – Chief Minister, Delhi.Formed by 7 passionate and dedicated development professionals, UDGAM works
+          on diverse social issues including education, women empowerment equality, healthcare and HIV/ AIDS, water&
+          sanitation, social justice and human rights.
+        </p>
+        <br>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mb-8"
+          viewBox="0 0 975.036 975.036">
+          <path
+            d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+          </path>
+        </svg>
+        <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Udgam Charitable Trust</h2>
+        <p class="text-gray-500">Explore, Enrich, Empower</p>
+      </div>
+    </div>
+  </section>
+  <!--End About Us-->
+
+  <!--Vision and Mission-->
+  <section class="text-gray-600 body-font" id="v&m">
+    <div class="container px-5 py-24 mx-auto">
+      <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center font-bold text-indigo-600 font-serif ">
+        Vision and Mission</h1>
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 md:w-1/2 w-full">
+          <div class="h-full bg-red-100 p-8 rounded border-solid border-red-500 border-4 border-opacity-100">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4"
+              viewBox="0 0 975.036 975.036">
+              <path
+                d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+              </path>
+            </svg>
+            <h1 class="font-bold text-center text-red-600 text-3xl font-serif ">VISION</h1>
+            <br>
+            <p class="leading-relaxed mb-6 font-bold font-medium font-serif">
+              An India with empowered and self reliant rural communities, which live with dignity, equal rights and
+              opportunities..</p>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4"
+              viewBox="0 0 975.036 975.036">
+              <path
+                d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+              </path>
+            </svg>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/2 w-full">
+          <div class="h-full bg-red-100 p-8 rounded border-solid border-red-500 border-4 border-opacity-100">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4"
+              viewBox="0 0 975.036 975.036">
+              <path
+                d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+              </path>
+            </svg>
+            <h1 class="font-bold text-center text-red-600 text-3xl font-serif">MISSION</h1>
+            <br>
+            <p class="leading-relaxed mb-6 font-bold font-medium font-serif">Facilitate socio-economic development and
+              tackle multidimensional issues of poverty.</p>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4"
+              viewBox="0 0 975.036 975.036">
+              <path
+                d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+              </path>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End of Vision and Mission-->
+
+  <!--Gallery-->
+  <section class="text-gray-600 body-font" id="gallery">
+    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+      <div class="flex w-full mb-20 flex-wrap">
+        <h1
+          class="sm:text-3xl text-5xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4 text-red-600 font-serif ">
+          <br><br><br>Udgam Charitable trust <br>GALLERY
+        </h1>
+        <ul class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base font-sans text-black">
+          <li>1.Udgam’s Managing Trustee Mr. Mayur Joshi has received many awards & recognitions for Udgam’s social
+            development activities.</li>
+          <li>2.Gujarat’s Honrable Governer Shri Naval Kishor Sharma felicitated UNO-2006, National Award for Social and
+            Rural Activities from International Association of Educators for World Peace (IAEWP), USA on 30th January
+            2006.</li>
+          <li>3.UN-2008 award for outstanding contribution to Rural Development & Women Empowerment from International
+            Association of Educators for World Peace (IAEWP), USA.</li>
+          <li>4.National Environment Conservation Award from Indian Institute of Ecology & Environment, New Delhi on
+            World Environment Day: 5th June 2008.</li>
+          <li>5.Best Youth Club Award from Nehru Yuva Kendra, Gandhinagar on 26th January 2009.</li>
+          <li>6.Gandhinagar Municipal Corporation Felicitated in Vayvandana programme for Social Activities on 05 April
+            2010.</li>
+        </ul>
+      </div>
+      <div class="flex flex-wrap md:-m-2 -m-1">
+        <div class="flex flex-wrap w-1/2">
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="images/img1.jpg">
+          </div>
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="images/img2.jpg">
+          </div>
+          <div class="md:p-2 p-1 w-full">
+            <img alt="gallery" class="w-full h-full object-cover object-center block" src="images/img3.jpg">
+          </div>
+        </div>
+        <div class="flex flex-wrap w-1/2">
+          <div class="md:p-2 p-1 w-full">
+            <img alt="gallery" class="w-full h-full object-cover object-center block" src="images/img4.jpg">
+          </div>
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="images/img5.jpg">
+          </div>
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="images/img6.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End Gallery-->
+
+  <!--Donate Page-->
+  <section class="text-gray-600 body-font" id="donate">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-green-900 font-mono">Yes! I want to Donate.....
+        </h1>
+        <p class="mb-8 leading-relaxed">
+          <b class="text-red-600 font-bold font-serif">Donation Cause</b>
+          Stop Child Labour, Girl Child Education, Health and sanitation
+          <br>
+          <b class="text-red-600 font-bold font-serif">About udgam</b>
+          Udgam Charitable Trust is a grass root level, secular and development oriented not for profit organization
+          popularly known as UDGAM,
+          <br>
+          <b class="text-indigo-600 font-bold font-serif">Thank You for donating Udgam and ensure change in the lives of
+            Children.</b>
+        </p>
+        <div class="flex justify-center">
+          <form class="flex flex-col justify-center align-middle p-3 md:ml-20 ml-1">
+            <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HUUC12e8PjAbU3"
+              async> </script>
+          </form>
+        </div>
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <img class="object-cover object-center rounded" alt="hero" src="images/donate.jpg">
+      </div>
+    </div>
+  </section>
+  <!--End Donate Page-->
+
+  <!--Contact Us-->
+  <br>
+  <section class="text-gray-600 body-font relative" id="contact">
+    <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+      <div
+        class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+        <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0"
+          marginwidth="0" scrolling="no"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4360.762111298396!2d72.64829459312338!3d23.208520885035608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2a523fffffff%3A0x4670b45a04089a0a!2sUDGAM%20CHARITABLE%20TRUST!5e0!3m2!1sen!2sin!4v1625389860882!5m2!1sen!2sin"></iframe>
+      </div>
+      <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 bg-red-100">
+        <h2 class="text-blue-900 text-2xl mb-1 font-medium title-font font-serif text-center">Contact Us</h2>
+        <p class="leading-relaxed mb-5 text-gray-600 text-red-600 text-center">Feel free to contact!!</p>
+        <div class="relative mb-4">
+          <h1 class="font-serif text- text-black text-center">Name:</h1>
+          <h2 class="font-sans text-indigo-600 text-center">Udgam Charitable Trust</h2>
+        </div>
+        <div class="relative mb-4">
+          <h1 class="font-serif text-black text-center">Address:</h1>
+          <h2 class="font-sans text-indigo-600 text-center"> Plot No: 818, Nr. Government School,<br>
+            Sector-8, Gandhinagar. Gujarat-382007.</h2>
+        </div>
+        <div class="relative mb-4">
+          <h1 class="font-serif text-black text-center">Email:</h1>
+          <h2 class="font-sans text-indigo-600 text-center"> info@udgam.org</h2>
+        </div>
+        <div class="relative mb-4">
+          <h1 for="message" class="text-gray-600 font-serif text-black text-center">Phone:</h1>
+          <h2 class="font-sans text-indigo-600 text-center ">+91- 9714006883,<br>
+            +91-79 23235413</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End contact Us-->
+
+  <!--Footer-->
+  <footer class="text-gray-600 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
+        href="http://www.udgam.org/#">
+        <img src="images/logo.png" />
+        <span class="ml-3 text-xl">UdgamCharitableTrust</span>
+      </a>
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">Copyright
+        2017. Udgam Charitable Trust
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="text-gray-500" href="https://www.facebook.com/udgamtrust/">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+            viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500" href="https://twitter.com/udgamtrust?lang=en">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+            viewBox="0 0 24 24">
+            <path
+              d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+            </path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500"
+          href="https://www.linkedin.com/company/udgam-charitable-trust/?originalSubdomain=my">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none"
+              d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </footer>
+  <!-- End footer-->
+
+  <!--Back to top-->
+  <div class="fixed z-30 bottom-0 right-0 mr-6 mb-6">
+    <a id="back2top" href="#" class="text-black-900 block bg-red-800 bg-opacity-50 rounded-md">
+      <span class="hidden">Back to Top</span>
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="w-10 h-10 " viewBox="0 0 24 24">
+        <path fill="currentColor" d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z">
+        </path>
+      </svg>
+    </a>
+  </div>
+  <!--End back to top-->
+
+  <script src="main.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      new Splide('.splide').mount();
+    });
+  </script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+
+</body>
+</html>
